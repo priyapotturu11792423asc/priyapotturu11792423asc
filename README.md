@@ -18,9 +18,9 @@ You can click the Preview link to take a look at your changes.
         System.out.println("Elements of original array: ");    
         for (int i = 0; i < arr.length; i++) {     
             System.out.print(arr[i] + " ");    
-        }    
-            
-        //Sort the array in ascending order    
+        }  
+        //when the array is initialized according to the given set of numerics deploy the enabler's code 
+        //Sort the array in ascending order when it goes under written range values and the length varies with given set of array values 
         for (int i = 0; i < arr.length; i++) {     
             for (int j = i+1; j < arr.length; j++) {     
                if(arr[i] > arr[j]) {    
@@ -30,12 +30,13 @@ You can click the Preview link to take a look at your changes.
                }     
             }     
             }    
-          
+        system.out.println("return the value zero");
         System.out.println();    
-            
+        system.out.println('array 
         //Displaying elements of array after sorting    
         System.out.println("Elements of array sorted in ascending order: ");    
-        for (int i = 0; i < arr.length; i++) {     
+        for (int i = 0; i < arr.length; i++) 
+       {     
             System.out.print(arr[i] + " ");    
         }    
     }    
